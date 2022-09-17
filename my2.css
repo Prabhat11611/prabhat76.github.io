@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Century', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+/*linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5))-------->is used to make the background image dim.   */
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('For Website/IMG_20220811_120234_674.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+/*keep the position to relative, because ye ladscape image cut ho jayega ya fir chota image open hoga mobile par dekhne se.(NEWIMG20220414195034.jpg)*/
+    background-position:relative;
+    height: 100vw;
+    background: url('For\ Website/IMG_20220811_120234_674.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-attachment: fixed;  
+}
+body .p{
+    top:2%;
+    font-size:100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+}
+p{
+    padding-top:5px;
+    padding-left:1%;
+    color:lightgoldenrodyellow;
+/*    font-size:10%;    */
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+}
+
+.moving{
+    color:rgb(255, 119, 0);
+}
+/*
+/*#firstimage .navigation .active{
+/*    padding-top:5%;
+/*    padding-left:0%;
+/*}
+/*.navigation .Profile{
+/*    padding-left:16.6%;
+/*}
+/*.navigation .Gallery{
+/*    padding-left:32.2%;
+/*}
+/*.navigation .Contact{
+/*    padding-left:49.8%;
+/*}
+/*.navigation .Feedback{
+/*    padding-left:66.4%;
+/*}
+/*.navigation .FAQ{
+/*    padding-left:83%;
+/*}
+*/
+.topnav{
+    overflow: hidden;
+    /*to make text background transparent
+    background-color:white;
+    */
+    position:relative;
+}
+
+.topnav #mylinks {
+    display:none;
+}
+.topnav a{
+    color:white;
+    padding:14px 16px;
+    text-decoration:none;
+/*    font-size:17px;       */
+    display:block;
+    transition: 1s ease-in-out;
+}
+/*#firstimage .topnav a{
+    font-size: 95%;
+    top:2%;
+
+}
+*/
+
+.topnav a.icon{
+    background:black;
+    display:block;
+    position:absolute;
+    left:50%;
+}
+.topnav a:hover {
+    background-color: #add; color:black;
+}
+/*Style the active links (or home/Logo)*/
+.active{
+    background-color:rgb(17, 252, 0); color:white;
+    opacity:80%;
+}
+
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top:2%;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none; color: greenyellow; padding: 2px 40px;
+    /*if you want to give any border to the nav. options then remove transparent option and give and color*/
+    border: 1px solid transparent;
+    /*to run the navigation options smoothly(the option with blink slowly and slowly)*/
+    transition: 1s ease;
+}
+/*sequence should be follow in between of link, visited, hover, active.*/
+/*ul li a:visited{
+    color:lightpink;
+}*/
+ul li a:hover{
+    background-color: white; color:black;
+}
+ul li a:active{
+    color:red;
+}
+/*since the window is on Home so we have made white color to Home button to show that that it is active at present*/
+ul li.active a{
+     background-color: white; color:black;
+ }
+
+
+
+
+
+a{
+    text-decoration: none; color:rgb(21, 1, 241);
+}
+body .center h1 {
+    position: absolute;font-size:100%; font-style:normal; color:blue;
+    text-shadow:5px 10px 20px rgba(69, 3, 251, 0.768);
+    top:58%; left:02%;
+    border-style:dotted; border-width:2px; border-color:beige; border-radius:10px;
+    /*To give space between text and border, we will use Padding. */
+    padding-top:8px; padding-bottom:10px; padding-left:50px; padding-right:50px;
+}
+body .center h2{
+    font-size: 100%;
+    position:absolute; top:64%; left:05%; color:rgb(225, 84, 33);
+    /*    font-style:oblique;  */
+}
+body .center h3 {
+    font-size: 100%;
+    font-weight:bolder;
+    position:absolute; top:53%; left:69%; right:5%; font-style:oblique; color:rgb(244, 240, 11);
+}
+body h4 {
+    font-size: 100%;
+    position:absolute;top:85%; left:13%; font-style:inherit;
+}
+body h5{
+    font-size: 100%;
+    font-weight:bolder;
+    position:absolute; top:87%; left:5%; font-style:inherit; color:rgb(244, 240, 11);
+}
+
+body .last mark{
+    position:absolute; bottom:-10%; left:1%;right:1%; font-style:inherit;
+}
